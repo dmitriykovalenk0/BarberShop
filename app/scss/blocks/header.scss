@@ -55,7 +55,39 @@
     }
   }
 
+  &__nav {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 2;
+    background-color: rgba(#000, .25);
+    .nav__inner {
+
+      ul {
+        display: flex;
+        justify-content: space-around;
+        li {
+          a {
+            padding: 30px 20px;
+            color: #e8e6e6;
+            font-size: 20px;
+            font-weight: 700;
+            text-transform: uppercase;
+            border-bottom: 1px solid rgba(#fff, 0);
+
+            &:hover {
+              color: #000;
+              background-color: rgba(#fff, .26);
+              border-bottom: 1px solid rgba(#fff, 1);
+            }
+          }
+        }
+      }
+    }
+  }
+
   &__slider {
+    position: relative;
 
     &-item {
       position: relative;
@@ -107,7 +139,7 @@
       border: 2px solid #985336;
       padding: 25px 29px;
       border-radius: 50%;
-      
+
     }
 
 
