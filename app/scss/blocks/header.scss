@@ -1,0 +1,57 @@
+.header {
+  &__top {
+    font-weight: 700;
+
+    &-content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    &-logo {
+      color: #985336;
+      font-size: 30px;
+      line-height: 95px;
+      letter-spacing: 0.75px;
+    }
+
+    &-search {
+      img {
+        cursor: pointer;
+        width: 19px;
+        height: 19px;
+      }
+    }
+
+    &-info {
+      color: #454545;
+      font-size: 16px;
+      line-height: 24px;
+      letter-spacing: 0.4px;
+
+      ul {
+        display: flex;
+
+        li {
+          display: flex;
+          align-items: center;
+
+          div {
+            display: flex;
+            flex-direction: column;
+          }
+
+          img {
+            margin-right: 20px;
+            width: 19px;
+            height: 19px;
+          }
+
+          &:not(:last-child) {
+            margin-right: 52px;
+          }
+        }
+      }
+    }
+  }
+}
