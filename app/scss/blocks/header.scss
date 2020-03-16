@@ -154,3 +154,18 @@
 
   }
 }
+
+.slick-arrow {
+  position: absolute;
+  top: 50%;
+  z-index: 1;
+  cursor: pointer;
+
+  border: 2px solid #985336;
+  padding: 25px 29px;
+  border-radius: 50%;
+
+}
+
+
+
