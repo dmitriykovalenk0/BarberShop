@@ -1,0 +1,81 @@
+.pricing {
+  height: 925px;
+  background-color: #efefef;
+
+  .pricing__content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    .pricing__lists {
+      display: flex;
+      justify-content: space-evenly;
+
+      .pricing__list {
+        width: 360px;
+        border: 1px solid #c6c6c6;
+
+        .list__header {
+          padding: 27px 151px;
+          color: #fff;
+          font-size: 24px;
+          font-weight: 400;
+          line-height: 30px;
+          text-transform: uppercase;
+          letter-spacing: 0.6px;
+        }
+
+        .list__header-man {
+          background-color: #303030;
+        }
+
+        .list__header-woman {
+          padding: 27px 135px;
+          background-color: #995437;
+        }
+
+        ul {
+          padding: 45px 21px;
+          height: 305px;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+
+          background-color: #fff;
+
+          li {
+            display: flex;
+            justify-content: space-between;
+
+            span {
+              color: #3d3d3d;
+              font-size: 18px;
+              font-weight: 400;
+              line-height: 30px;
+              letter-spacing: 0.45px;
+            }
+          }
+        }
+
+        .list__footer {
+          padding: 20px 100px;
+          color: #fff;
+          font-size: 24px;
+          font-weight: 400;
+          line-height: 30px;
+          text-transform: uppercase;
+          letter-spacing: 0.6px;
+        }
+
+        .list__footer-man {
+          background-color: #303030;
+        }
+
+        .list__footer-woman {
+          background-color: #995437;
+        }
+      }
+    }
+  }
+}

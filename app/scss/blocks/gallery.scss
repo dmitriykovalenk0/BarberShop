@@ -2,10 +2,11 @@
   height: 1110px;
 
   .gallery__content {
+    padding-top: 130px;
     height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
 
     .gallery__images {
       display: flex;
